@@ -1,0 +1,42 @@
+body {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+.chessboard {
+    width: 640px;
+    height: 640px;
+    margin: 20px;
+    border: 40px solid #000;
+
+}
+.black {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #5b7d87;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: 80px;
+    height: 80px;
+    background-color: #91b3bc;
+    font-size:50px;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.figure-w, .figure-b {
+  text-decoration: none;
+  color: #000;
+}
+.figure-w:hover {
+  color: #5b7d87;
+}
+.figure-b:hover {
+  color: #91b3bc;
+}
